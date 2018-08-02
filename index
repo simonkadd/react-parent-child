@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--Simon Kaddissi home page 23JUL2018+-->
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <title>Simon Home</title>
+
+  <style>
+    body {
+      background-image: url("./Images/stars.jpg");
+      font-family: 'Comic Sans MS', 'Arial Narrow', Arial, sans-serif;
+      font-size: 1.5vw;
+
+    }
+
+    #wrapper {
+      width: 100%;
+    }
+
+    #container {
+      width: 75%;
+      height: auto;
+      padding: 30px;
+      margin: auto;
+      background-color: white;
+      border: double gray;
+    }
+
+    #header {
+      max-width: 100%;
+      background-color: gray;
+      text-align: justify;
+      padding: 20px;
+      border: double;
+      color: white;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    }
+
+    #avatar {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      margin: 15px;
+      float: left;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    }
+
+    #myName {
+      text-align: center;
+      color: white;
+    }
+
+    .logoDiv {
+      height: 60px;
+      width: auto;
+      margin: 5px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    .listDiv {
+      width: 15%;
+      display: inline-block;
+    }
+
+    ul {
+      list-style-type: none;
+
+    }
+
+    #resume {
+      float: left;
+      text-align: center;
+      margin-left: 10px;
+    }
+
+    #w3cert {
+      float: left;
+      text-align: center;
+    }
+
+    .flex-center {
+      display: flex;
+      justify-content: center;
+      vertical-align: top;
+      flex-wrap: wrap;
+    }
+  </style>
+
+</head>
+
+<body>
+  <div id="wrapper">
+    <div id="container">
+      <div id="header">
+        <img id="avatar" src="./Images/ska.jpg" />
+        <h1 id="myName">Simon Kaddissi</h1>
+        <p>Pixel perfect; pride in every element; coding for fun; working with passion; exponential skill level; fuelled and
+          ready to go; can do attitude; glass is half full; eye on the prize; coding with skill and experience; life-long
+          learner; no job too small; no challenge too big; deadline champion; all for the code; keep the client happy; go
+          the extra mile.</p>
+        <p style="text-align: center;">HTML5, CSS3, Javascript, JQuery, WordPress, ReactJS, GitHub, Visual Studio Code, DreamWeaver, PhotoShop, Responsive
+          Design, Front End.</p>
+        <p style="text-align: center;">coder@simonkaddissi.net | Bankstown, NSW 2200, AU </p>
+      </div>
+      <br/>
+      <br/>
+
+
+
+      <div class="flex-center">
+        <div>
+          <img src="./Images/html5.png" alt="logo" class="logoDiv" />
+        </div>
+        <div>
+          <img src="./Images/css3.png" alt="logo" class="logoDiv" />
+        </div>
+        <div>
+          <img src="./Images/js.png" alt="logo" class="logoDiv" />
+        </div>
+        <div>
+          <img src="./Images/jquery.png" alt="logo" class="logoDiv" />
+        </div>
+        <div>
+          <img src="./Images/wp.jpg" alt="logo" class="logoDiv" />
+        </div>
+        <div>
+          <img src="./Images/react.png" alt="logo" class="logoDiv" />
+        </div>
+      </div>
+
+      <br />
+      <div class="flex-center">
+        <div id="w3cert">
+          <a target="_blank" href="http://www.refsnesdata.no/certification/w3certified.asp?id=8295042">
+            <img style="width: 85px;" src="./Images/w3cert.png" />
+          </a>
+          <br/>click image</div>
+
+        <div id="resume">
+          <a target="_blank" href="./Images/resume.pdf">
+            <img style="width: 55px;" src="./Images/pdf.jpg" />
+          </a>
+          <br/>resume</div>
+      </div>
+
+      <br/>
+
+
+      <h2 style="text-align: center;">Portfolio & Coding Examples</h2>
+      <div class="flex-center">
+        <div class="listDiv">
+          <ul>
+            <lh>HTML5 & CSS3</lh>
+            <li>
+              <a target="_blank" href="./HTML5CSS3/HTML5CSS301/html5Css301.html">colors</a>
+            </li>
+            <li>
+              <a target="_blank" href="./HTML5CSS3/HTML5CSS302/html5Css302.html">backgrounds</a>
+            </li>
+            <li>
+              <a target="_blank" href="./HTML5CSS3/HTML5CSS303/html5Css303.html">box model</a>
+            </li>
+            <li>
+              <a target="_blank" href="./HTML5CSS3/HTML5CSS304/html5Css304.html">outline</a>
+            </li>
+            <li>
+              <a target="_blank" href="./HTML5CSS3/HTML5CSS305/html5Css305.html">text</a>
+            </li>
+            <li>
+              <a target="_blank" href="./HTML5CSS3/HTML5CSS306/html5Css306.html">links, lists</a>
+            </li>
+            <li>
+              <a target="_blank" href="./HTML5CSS3/HTML5CSS307/html5Css307.html">tables</a>
+            </li>
+            <li>
+              <a target="_blank" href="./HTML5CSS3/HTML5CSS308/html5Css308.html">display</a>
+            </li>
+            <li>
+              <a target="_blank" href="./HTML5CSS3/HTML5CSS309/html5Css309.html">float, max-width</a>
+            </li>
+            <li>
+              <a target="_blank" href="./HTML5CSS3/HTML5CSS310/html5Css310.html">opacity, flex box</a>
+            </li>
+            <li>
+              <a target="_blank" href="./HTML5CSS3/HTML5CSS311/html5Css311.html">navigatin bar</a>
+            </li>
+            <li>
+              <a target="_blank" href="./HTML5CSS3/HTML5CSS312/html5Css312.html">image gallery</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="listDiv">
+          <ul>
+            <lh>Javascript</lh>
+            <li>
+              <a target="_blank" href="./JS/JS01/JS01.html">onClick, document</a>
+            </li>
+            <li>
+              <a target="_blank" href="./JS/JS02/JS02.html">sorting arrays</a>
+            </li>
+            <li>
+              <a target="_blank" href="./JS/JS03/JS03.html">validation, alerts</a>
+            </li>
+            <li>
+              <a target="_blank" href="./JS/JS04/JS04.html">date</a>
+            </li>
+            <li>
+              <a target="_blank" href="./JS/JS05/JS05.html">set timeout, onLoad</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="listDiv">
+          <ul>
+            <th>JQuery</th>
+            <li>
+              <a target="_blank" href="./JQ/JQ01/JQ01.html">hide, show</a>
+            </li>
+            <li>
+              <a target="_blank" href="./JQ/JQ02/JQ02.html">toggle</a>
+            </li>
+            <li>
+              <a target="_blank" href="./JQ/JQ03/JQ03.html">fade, opacity</a>
+            </li>
+            <li>
+              <a target="_blank" href="./JQ/JQ04/JQ04.html">animate</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="listDiv">
+          <ul>
+            <lh>ReactJS</lh>
+            <li>
+              <a target="_blank" href="./React/React01/react01.html">parent child</a>
+            </li>
+            <li>
+              <a target="_blank" href="./React/React02/react02.html">inline styling</a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  </div>
+</body>
+
+</html>
